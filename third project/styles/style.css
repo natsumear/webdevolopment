@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+body{
+    background-image:url(image2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    column-gap: 300px;
+    padding: 30px  ;
+ } 
+ header div ul  {
+    display: flex;
+     column-gap: 30px; 
+    color:rgb(228, 175, 4);
+    padding-top: 20px;
+    font-weight: 600;
+
+}
+.h{
+    cursor: pointer;
+}
+.o:hover{
+    color: #fff;
+    text-decoration: dashed;
+    font-weight: bold;
+    transition-timing-function: ease-in;
+}
+
+.e:hover{
+    color: #fff;
+    text-decoration: dashed;
+    font-weight: bold;
+    transition-timing-function: ease-in;
+}
+.n:hover{
+    color: #fff;
+    text-decoration: dashed;
+    font-weight: bold;
+    transition-timing-function: ease-in;
+}
+.m:hover{
+    color: #fff;
+    text-decoration: dashed;
+    font-weight: bold;
+    transition-timing-function: ease-in;
+}
+.buttonone{
+    padding-top: 17px;
+}
+button{
+    background-color: rgb(252, 72, 59);
+    padding: 10px 30px 10px;
+    border-radius: 8px;
+    color: white;
+    border-color: rgb(252, 72, 59);
+    font-family: 'Poppins', sans-serif;
+}
+button:hover{
+    background-color: #fff;
+    color: rgb(252, 72, 59);
+    border-color: rgb(252, 72, 59);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+}
+h1{
+    color: rgb(228, 175, 4);
+    text-align: center;
+    font-size:60px;
+    padding: 20px 350px 0px 350px;
+    word-spacing: 30px;
+}
+.buttontwo{
+    padding: 10px 50px 10px 50px;
+    color: #fff;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.lastlogo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 80%;
+}
