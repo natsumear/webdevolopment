@@ -1,0 +1,95 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+/* arghya debnath 2nd project on html and css  */
+body{background-color: rgb(247, 243, 232);
+    font-family: 'Poppins', sans-serif;    
+}
+header{
+    display: flex;
+    justify-content:first baseline;
+    padding-top: 20px;
+}
+.headerright ul {
+    display: flex;
+    column-gap: 60px;
+    font-size: 19px;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-left: 50px;
+
+}
+.headerright li:hover{
+    color: rgb(0, 128, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    padding-left: 100px;
+}
+.LOBBO{
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;
+
+}
+.main{
+    display: flex;
+}
+.leftmain{
+    padding: 160px 0px 0px 100px;
+}
+.leftmain h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.leftmain button {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 9px;
+    border: solid white 2px;
+    padding: 6px 6px 6px 6px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+.leftmain p{
+    margin-top: 10px;
+}
+
+.leftmain button:hover{
+    background-color: #fff;
+    color: rgb(0, 128, 0);
+    border: solid black 2px;
+}
+.rightmain {
+    padding: 40px 10px 10px 300px;
+  }
+  
+  .rightmain div img {
+    width: 30%;
+    border-radius: 10px;
+  }
+  
+  .rightmain div img:first-child {
+    margin-right: 20px;
+  }
+  
+  .rightmain div {
+    margin-bottom: 20px;
+  }
+  
+  .rightmain > img {
+    width: 64%;
+    height: 49%;
+    border-radius: 15px;
+  }
+
+
+
+
+
